@@ -1,0 +1,12 @@
+jenkins default server-jetty/winstone
+
+for executable tomcat sh ile-chmod +x *.sh
+
+jenkins start-java -jar jenkins.war --httpport=9999
+
+==================
+jenkins command line interface
+
+start jenkins-go to manage jenkins-configure global settings-make enable
+type-http://localhost:8080/cli/
+download jenkins cli jar
